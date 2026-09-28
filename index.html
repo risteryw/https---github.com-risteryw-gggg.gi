@@ -10,12 +10,12 @@
         }
 
         header {
-            background-color: palevioletred;
             height: 90px;
             display: flex;
             align-items: center;
             justify-content: space-between;
             padding: 0 40px;
+            background-color: palevioletred;
             border-radius: 0 0 25px 25px;
         }
         .logo{
@@ -26,11 +26,11 @@
         .cart{
             background-color: aliceblue;
             color:black;
-            padding: 15px 25px;
+            padding: 12px 25px;
             border-radius: 20px;  
         }
         main {
-            max-width: 1200px;
+            width: 95%;
             margin: 30px auto;
         }
         .banner{
@@ -38,46 +38,38 @@
             height: 250px;
             object-fit: cover;
             border-radius: 25px;
+            display: block;
         }
-        .products{
+        .products {
             display: grid;
             grid-template-columns: repeat(5,1fr);
-            gap: 15px;
-            margin-top: 80px;
+            gap: 12px;
+            width: 100%;
+            margin-top: 70px;
         }
         .product {
+            width: 100%;
             background-color: aliceblue;
             border-radius: 15px;
-            padding: 12px;
-            box-sizing: border-box;
+            padding: 10px;
+
         }
         .product img {
             width: 100%;
-            height: 250px;
+            height: 180px;
             object-fit: cover;
             border-radius: 10px;
+            display: block;
         }
         .price{
-            font-size: 20px;
+            font-size: 18px;
             font-weight: bold;
             margin-top: 10px;
         }
         .name{
-            font-size: 14px;
-            margin-top: 8px;
-            margin-bottom: 12px;
-        }
-        .buy{
-            display: block;
-            text-align: center;
-            background-color: hotpink;
-            color:aliceblue;
-            padding: 10px;
-            border-radius: 10px;
-
-        }
-        .buy:hover{
-            background-color: beige;
+            font-size: 13px;
+            margin-top: 7px;
+            
         }
 
     </style>
@@ -124,9 +116,4 @@
             <div class="name">Помётка</div>
             <a href="#" class="buy">Купиtь</a>
         </div>
-
-</head>
-<body>
-    
-</body>
-</html>
+    </main>
